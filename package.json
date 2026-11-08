@@ -1,0 +1,22 @@
+{
+  "name": "multporn-paperback",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "paperback-cli test",
+    "bundle": "paperback-cli bundle",
+    "serve": "paperback-cli serve"
+  },
+  "dependencies": {
+    "@paperback/toolchain": "1.0.0-alpha.94",
+    "@paperback/types": "1.0.0-alpha.94"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
